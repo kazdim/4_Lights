@@ -25,19 +25,19 @@ public class MainActivity extends AppCompatActivity {
         yellowButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mInfoTextView.setText(R.string.yellowButton);
-                mRelativeLayout.setBackgroundColor(getResources().getColor(R.color.yellowBkgrnd));
+                mInfoTextView.setText(R.string.yellow);
+                mRelativeLayout.setBackgroundColor(getResources().getColor(R.color.yellowBkgrnd, null));
             }
         });
     }
 
     public void onRedBClick(View view) {
-        mInfoTextView.setText(R.string.redButton);
+        mInfoTextView.setText(R.string.red);
         mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.redBkgrnd));
     }
 
     public void onGreenBClick(View view) {
-        mInfoTextView.setText(R.string.greenButton);
+        mInfoTextView.setText(R.string.green);
         mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.greenBkgrnd));
     }
 }
