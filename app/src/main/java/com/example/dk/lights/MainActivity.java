@@ -1,5 +1,6 @@
 package com.example.dk.lights;
 
+import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,14 +22,6 @@ public class MainActivity extends AppCompatActivity {
         mRelativeLayout = (RelativeLayout)findViewById(R.id.relativeLayout);
         mInfoTextView = (TextView)findViewById(R.id.textView);
 
-        Button yellowButton = (Button)findViewById(R.id.buttonYellow);
-        yellowButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mInfoTextView.setText(R.string.yellow);
-                mRelativeLayout.setBackgroundColor(getResources().getColor(R.color.yellowBkgrnd));
-            }
-        });
     }
 
     public void onRedBClick(View view) {
@@ -39,5 +32,10 @@ public class MainActivity extends AppCompatActivity {
     public void onGreenBClick(View view) {
         mInfoTextView.setText(R.string.green);
         mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.greenBkgrnd));
+    }
+
+    public void onYellowBClick(View view) {
+        mInfoTextView.setText(R.string.yellow);
+        mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.yellowBkgrnd));
     }
 }

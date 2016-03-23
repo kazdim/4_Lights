@@ -36,7 +36,8 @@
         android:id="@+id/buttonYellow"
         android:layout_below="@+id/buttonRed"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:layout_marginTop="40dp"
+        android:onClick="onYellowBClick" />
 
     <Button
         android:layout_width="match_parent"
