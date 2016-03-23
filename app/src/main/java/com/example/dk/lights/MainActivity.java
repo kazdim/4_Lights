@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mInfoTextView.setText(R.string.yellow);
-                mRelativeLayout.setBackgroundColor(getResources().getColor(R.color.yellowBkgrnd, null));
+                mRelativeLayout.setBackgroundColor(getResources().getColor(R.color.yellowBkgrnd));
             }
         });
     }
