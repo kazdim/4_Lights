@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/redButton"
+        android:text="@string/red"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView"
         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -22,7 +22,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/redButton"
+        android:text="@string/red"
         android:id="@+id/buttonRed"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -32,7 +32,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/yellowButton"
+        android:text="@string/yellow"
         android:id="@+id/buttonYellow"
         android:layout_below="@+id/buttonRed"
         android:layout_centerHorizontal="true"
@@ -41,7 +41,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/greenButton"
+        android:text="@string/green"
         android:id="@+id/buttonGreen"
         android:layout_below="@+id/buttonYellow"
         android:layout_centerHorizontal="true"
