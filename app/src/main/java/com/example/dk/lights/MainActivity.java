@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout mRelativeLayout;
     private TextView mInfoTextView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onRedBClick(View view) {
+     public void onRedBClick(View view) {
         mInfoTextView.setText(R.string.red);
         mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.redBkgrnd));
     }
 
-    public void onGreenBClick(View view) {
+     public void onGreenBClick(View view) {
         mInfoTextView.setText(R.string.green);
         mRelativeLayout.setBackgroundColor(ContextCompat.getColor(this, R.color.greenBkgrnd));
     }
