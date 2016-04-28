@@ -24,37 +24,28 @@
         android:layout_height="wrap_content"
         android:text="@string/red"
         android:id="@+id/buttonRed"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="onRedBClick"
-        android:background="@drawable/buttonshape"/>
+        android:onClick="onRedBClick"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/yellow"
         android:id="@+id/buttonYellow"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
         android:layout_below="@+id/buttonRed"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="onYellowBClick"
-        android:background="@drawable/buttonshape"/>
+        android:onClick="onYellowBClick"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/green"
         android:id="@+id/buttonGreen"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"
         android:layout_below="@+id/buttonYellow"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:onClick="onGreenBClick"
-        android:background="@drawable/buttonshape"/>
+        android:onClick="onGreenBClick"/>
 </RelativeLayout>
